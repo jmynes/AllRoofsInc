@@ -60,6 +60,14 @@ body {
   height: 500px;
 }
 
+/* http://parkhurstdesign.com/improved-carousels-twitter-bootstrap/ */
+.slider-size {
+  height: 500px; /* This is your slider height */
+}
+.carousel {
+  width:100%; 
+  /* margin:0 auto; */ /* center your carousel if other than 100% */ 
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
