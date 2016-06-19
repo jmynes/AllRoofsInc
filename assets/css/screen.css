@@ -17,6 +17,7 @@
   height: 100% !important;
 }
 
+/* https://codepen.io/dudleystorey/pen/kFoGw */
 @import url(http://fonts.googleapis.com/css?family=Istok+Web);
 @keyframes slidy {
   0% { left: 0%; }
