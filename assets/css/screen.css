@@ -17,6 +17,9 @@
   height: 100% !important;
 }
 
+/* IMAGE GALLERY
+-------------------------------------------------- */
+
 /* https://codepen.io/dudleystorey/pen/kFoGw */
 @import url(http://fonts.googleapis.com/css?family=Istok+Web);
 @keyframes slidy {
@@ -53,4 +56,34 @@ figure.slider figure figcaption {
   background: rgba(0,0,0,0.4);
   color: #fff; width: 100%;
   font-size: 2rem; padding: .6rem; 
+}
+
+
+/* FORM
+-------------------------------------------------- */
+
+.estimateForm {
+  
+}
+
+.estimateForm label, .estimateForm input {
+  display: block;
+  width: 70%;
+}
+
+.estimateForm label {
+  width: 70%;
+}
+
+.estimateForm input#submit {
+  
+}
+
+.estimateForm input {
+
+}
+
+.estimateForm fieldset#left {
+  float: left;
+  margin-bottom: 1em;
 }
