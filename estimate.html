@@ -22,6 +22,9 @@
     <!-- Non-Bootstrap CSS -->
     <link href="assets/css/screen.css" rel="stylesheet">
 
+    <!-- form CSS http://demo.tutorialzine.com/2015/07/7-clean-and-responsive-forms/-->
+    <link rel="stylesheet" href="assets/css/form-basic.css">
+
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="assets/js/ie-emulation-modes-warning.js"></script>
@@ -170,48 +173,119 @@
           <h2 class="featurette-heading">Get a <span class="text-muted">free estimate</span></h2>
           <p class="lead">Just fill out this simple form, and an All Roofs representative will contact you shortly!</p>
 
-            <div class="estimateForm">
+          <!-- http://demo.tutorialzine.com/2015/07/7-clean-and-responsive-forms/ -->
 
+          <form class="form-basic" method="post" action="#">
 
+              <div class="form-title-row">
+                  <h1>All Roofs, Inc</h1>
+              </div>
+
+              <div class="form-row">
+                  <label>
+                      <span>Full name</span>
+                      <input type="text" name="name" placeholder="John Doe" required>
+                  </label>
+              </div>
+
+              <div class="form-row">
+                  <label>
+                      <span>Email</span>
+                      <input type="email" name="email" placeholder="jdoe@example.com">
+                  </label>
+              </div>
+
+              <div class="form-row">
+                  <label>
+                      <span>Phone number</span>
+                      <input type="tel" name="phone" placeholder="555-555-555" required> <!-- number -->
+                  </label>
+              </div>
+
+              <div class="form-row">
+                  <label>
+                      <span>Street Address</span>
+                      <input type="text" name="address" placeholder="123 School St">
+                  </label>
+              </div>
+
+              <div class="form-row">
+                  <label>
+                      <span>City, State, and ZIP</span>
+                      <input type="text" name="citystzip" placeholder="Chicago, IL, 60616">
+                  </label>
+              </div>
+
+              <div class="form-row">
+                  <label>
+                      <span>Building Type</span>
+                      <input type="text" name="building">
+                  </label>
+              </div>
+
+              <div class="form-row">
+                  <label>
+                      <span>How did you hear about us?</span>
+                      <input type="text" name="how">
+                  </label>
+              </div>
               
-              <!-- <label for="comments">Any Questions or Comments?:</label> -->
-              <form action="#">
-                <fieldset id="left">
-                  <label for="name">First and Last Name:</label>
-                  <input placeHolder="John Doe" id="name" name="name" type="text"/>
-                  
-                  <label for="email">Email Address:</label>
-                  <input placeHolder="jdoe@gmail.com" id="email" name="email" pattern="^.+@.+$"/>
-                  
-                  <label for="phone">Phone Number (with Area Code):</label>
-                  <input placeHolder="555-555-5555" id="phone" name="phone" type="text"/> <!-- implement phone keyboard being brought up -->
-                
-                  <label for="address">Street Address:</label>
-                  <input placeHolder="123 Drury Ln" id="address" name="address" type="text"/>  <!-- implement better form with dropdowns etc -->
-                </fieldset>
+              <!--
 
-                <fieldset id="right">
-                  <label for="citystzip">City, State, and ZIP:</label>
-                  <input placeHolder="Chicago, IL, 60616" id="citystzip" name="citystzip" type="text"/>
+              <div class="form-row">
+                  <label>
+                      <span>Dropdown</span>
+                      <select name="dropdown">
+                          <option>Option One</option>
+                          <option>Option Two</option>
+                          <option>Option Three</option>
+                          <option>Option Four</option>
+                      </select>
+                  </label>
+              </div>
 
-                  <label for="building">Building Type (Home/Residential):</label>
-                  <input placeHolder="Home" id="building" name="building" type="text"/>
-                  
-                  <label for="how">How did you hear about us?</label>
-                  <input placeHolder="Friend of a friend" id="how" name="how" type="text"/>
-                </fieldset>
+              <div class="form-row">
+                  <label>
+                      <span>Checkbox</span>
+                      <input type="checkbox" name="checkbox" checked>
+                  </label>
+              </div>
 
-                <!-- <textarea rows="6" cols="30" id="comments" name="comments"></textarea> -->
-                <input type="submit" id="submit" name="submit" value="Get your free estimate!"/>
-              </form>
+              <div class="form-row">
+                  <label><span>Radio</span></label>
+                  <div class="form-radio-buttons">
 
-              <!-- <input placeHolder="jdoe@hawk.iit.edu" id="email" name="email" pattern="^.+@.+$"/> -->
+                      <div>
+                          <label>
+                              <input type="radio" name="radio">
+                              <span>Radio option 1</span>
+                          </label>
+                      </div>
 
-            </div>
+                      <div>
+                          <label>
+                              <input type="radio" name="radio">
+                              <span>Radio option 2</span>
+                          </label>
+                      </div>
 
+                      <div>
+                          <label>
+                              <input type="radio" name="radio">
+                              <span>Radio option 3</span>
+                          </label>
+                      </div>
 
+                  </div>
+              </div>
 
+              -->
 
+              <div class="form-row">
+                  <button type="submit">Submit Form</button>
+              </div>
+
+          </form>
         </div>
         <!--
         <div class="col-md-5">

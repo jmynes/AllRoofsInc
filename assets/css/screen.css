@@ -61,29 +61,3 @@ figure.slider figure figcaption {
 
 /* FORM
 -------------------------------------------------- */
-
-.estimateForm {
-  
-}
-
-.estimateForm label, .estimateForm input {
-  display: block;
-  width: 70%;
-}
-
-.estimateForm label {
-  width: 70%;
-}
-
-.estimateForm input#submit {
-  
-}
-
-.estimateForm input {
-  margin-bottom: 1em;
-}
-
-.estimateForm fieldset#left {
-  float: left;
-  width: 50%;
-}
