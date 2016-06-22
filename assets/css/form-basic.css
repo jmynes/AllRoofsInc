@@ -48,13 +48,13 @@ html{
 }
 
 .form-basic input{
-  color:  #5f5f5f;
+  color: #5f5f5f;
   box-sizing: border-box;
   width: 240px;
   box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
   padding-top: 12px; /* Jordan */
-  padding-bottom: 12px;
-  padding-left: 3em; /* /Jordan */
+  padding-bottom: 12px; /* Jordan */
+  padding-left: 3em; /* Jordan */
   border: 1px solid #dbdbdb;
 }
 
