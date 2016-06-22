@@ -76,6 +76,8 @@ figure.slider figure figcaption {
 }
 
 .control-label span:before { 
-  content:"* ";
+  content:"*";
   color:red;
+  position: absolute; /* Outside of div, doesn't displace text */
+  margin-left: -1em; /* Position fix for absolute position */
 }
