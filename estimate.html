@@ -195,16 +195,6 @@
             </div>
 
             <div class="form-row">
-              <label>
-                <span>Email</span>
-                <div class="fieldWrap">
-                  <i class="glyphicon glyphicon-envelope"></i>
-                  <input type="email" name="email" placeholder="jdoe@example.com" pattern="^.+@.+$">
-                </div>
-              </label>
-            </div>
-
-            <div class="form-row">
               <label class='control-label'>
                 <span>Phone number</span>
                 <div class="fieldWrap">
@@ -215,23 +205,43 @@
             </div>
 
             <div class="form-row">
-              <label>
+              <label class='control-label'>
                 <span>Street Address</span>
                 <div class="fieldWrap">
                   <i class="glyphicon glyphicon-home"></i>
-                  <input type="text" name="address" placeholder="123 School St"> 
+                  <input type="text" name="address" placeholder="123 School St" required> 
+                </div>
+              </label>
+            </div>
+
+            <div class="form-row">
+              <label class='control-label'>
+                <span>City, State, and ZIP</span>
+                <div class="fieldWrap">
+                  <i class="glyphicon glyphicon-map-marker"></i>
+                  <input type="text" name="citystzip" placeholder="Chicago, IL, 60616" required>
                 </div>
               </label>
             </div>
 
             <div class="form-row">
               <label>
-                <span>City, State, and ZIP</span>
+                <span>Email</span>
                 <div class="fieldWrap">
-                  <i class="glyphicon glyphicon-map-marker"></i>
-                  <input type="text" name="citystzip" placeholder="Chicago, IL, 60616">
+                  <i class="glyphicon glyphicon-envelope"></i>
+                  <input type="email" name="email" placeholder="jdoe@example.com" pattern="^.+@.+$">
                 </div>
               </label>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>How did you hear about us?</span>
+                    <div class="fieldWrap">
+                      <i class="glyphicon glyphicon-question-sign"></i>
+                      <input type="text" name="how" placeholder="Friend, Google, etc">
+                    </div>
+                </label>
             </div>
 
             <div class="form-row">
@@ -253,15 +263,6 @@
               </div>
             </div>
 
-            <div class="form-row">
-                <label>
-                    <span>How did you hear about us?</span>
-                    <div class="fieldWrap">
-                      <i class="glyphicon glyphicon-question-sign"></i>
-                      <input type="text" name="how" placeholder="Friend, Google, etc">
-                    </div>
-                </label>
-            </div>
               
             <!--
 
