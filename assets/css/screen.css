@@ -61,9 +61,16 @@ figure.slider figure figcaption {
 
 /* FORM
 -------------------------------------------------- */
-/* style glyph */
-.glyphicon {
-  position: relative;
-  padding: 10px;
-  pointer-events: none;
+/* http://stackoverflow.com/questions/18838964/add-bootstrap-glyphicon-to-input-box/18839305#18839305 */
+/* enable absolute positioning */
+.fieldWrap { 
+  position: relative; 
+  display: inline-block;
+}
+
+/* style icon */
+.fieldWrap .glyphicon {
+  position: absolute;
+  padding: 1em;
+  /* pointer-events: none; */
 }

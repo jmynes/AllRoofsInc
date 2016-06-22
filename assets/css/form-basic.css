@@ -52,7 +52,9 @@ html{
   box-sizing: border-box;
   width: 240px;
   box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
-  padding: 12px;
+  padding-top: 12px; /* Jordan */
+  padding-bottom: 12px;
+  padding-left: 3em; /* /Jordan */
   border: 1px solid #dbdbdb;
 }
 
@@ -119,7 +121,7 @@ html{
   margin: 40px 183px 0;
 }
 
-/*	Making the form responsive. Remove this media query
+/*  Making the form responsive. Remove this media query
   if you don't need the form to work on mobile devices. */
 
 @media (max-width: 600px) {
