@@ -131,6 +131,7 @@ div.services-thumbnail:hover .overlay {
   box-sizing: border-box;
   padding: 1em;
   color: #FFFFFF;
+  text-align: center;
 
   /* All other styling - see example */
   img {
