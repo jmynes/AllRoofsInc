@@ -83,7 +83,7 @@ figure.slider figure figcaption {
   margin-left: -1em; /* Position fix for absolute position */
 }
 
-/* PRODUCTS
+/* PRODUCTS/SERVICES
 -------------------------------------------------- */
 
 div#interactive-oc {
@@ -99,3 +99,7 @@ div#interactive-ct {
   height: 100px;
 }
 
+div#services-thumbnail {
+  display: inline-block;
+  padding: 5%;
+}
