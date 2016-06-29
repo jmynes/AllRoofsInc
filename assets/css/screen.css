@@ -102,4 +102,9 @@ div#interactive-ct {
 div#services-thumbnail {
   display: inline-block;
   padding: 5%;
+
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
 }
