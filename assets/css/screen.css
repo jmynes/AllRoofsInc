@@ -61,6 +61,7 @@ figure.slider figure figcaption {
 
 /* FORM
 -------------------------------------------------- */
+
 /* http://stackoverflow.com/questions/18838964/add-bootstrap-glyphicon-to-input-box/18839305#18839305 */
 /* enable absolute positioning */
 .fieldWrap { 
@@ -81,3 +82,20 @@ figure.slider figure figcaption {
   position: absolute; /* Outside of div, doesn't displace text */
   margin-left: -1em; /* Position fix for absolute position */
 }
+
+/* PRODUCTS
+-------------------------------------------------- */
+
+div#interactive-oc {
+  background: url('../img/product/interactive-oc.png') no-repeat center;
+  background-size: contain;
+  height: 100px;
+  margin-bottom: 1em;
+}
+
+div#interactive-ct {
+  background: url('../img/product/interactive-ct.png') no-repeat center;
+  background-size: contain;
+  height: 100px;
+}
+
