@@ -1,0 +1,144 @@
+/* EMBED CONTAINERS
+-------------------------------------------------- */
+
+/* http://www.labnol.org/internet/embed-responsive-google-maps/28333/ */
+.google-maps {
+  position: relative;
+  padding-bottom: 100%; /* This is the aspect ratio */
+  height: 0;
+  overflow: hidden;
+}
+
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* IMAGE GALLERY
+-------------------------------------------------- */
+
+/* https://codepen.io/dudleystorey/pen/kFoGw */
+@import url(http://fonts.googleapis.com/css?family=Istok+Web);
+@keyframes slidy {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
+}
+
+figure { 
+  margin: 0;
+  font-family: Istok Web, sans-serif;
+  font-weight: 100;
+}
+div#captioned-gallery { 
+  width: 100%; overflow: hidden; 
+}
+figure.slider { 
+  position: relative; width: 500%;
+  font-size: 0; animation: 30s slidy infinite; 
+}
+figure.slider figure { 
+  width: 20%; height: auto;
+  display: inline-block;  position: inherit; 
+}
+figure.slider img { width: 100%; height: auto; }
+figure.slider figure figcaption { 
+  position: absolute; bottom: 0;
+  background: rgba(0,0,0,0.4);
+  color: #fff; width: 100%;
+  font-size: 2rem; padding: .6rem; 
+}
+
+
+/* FORM
+-------------------------------------------------- */
+
+/* http://stackoverflow.com/questions/18838964/add-bootstrap-glyphicon-to-input-box/18839305#18839305 */
+/* enable absolute positioning */
+.fieldWrap { 
+  position: relative; 
+  display: inline-block;
+}
+
+/* style icon */
+.fieldWrap .glyphicon {
+  position: absolute;
+  padding: 1em;
+  /* pointer-events: none; */
+}
+
+.control-label span:before { 
+  content:"*";
+  color:red;
+  position: absolute; /* Outside of div, doesn't displace text */
+  margin-left: -1em; /* Position fix for absolute position */
+}
+
+/* PRODUCTS/SERVICES
+-------------------------------------------------- */
+
+div.interactive-oc {
+  background: url('../img/product/interactive-oc.png') no-repeat center;
+  background-size: contain;
+  height: 100px;
+  margin-bottom: 1em;
+}
+
+div.interactive-ct {
+  background: url('../img/product/interactive-ct.png') no-repeat center;
+  background-size: contain;
+  height: 100px;
+}
+
+div.services-thumbnail {
+  display: inline-block;
+  padding: 5%;
+
+  /*width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;*/
+}
+
+/* http://stackoverflow.com/questions/21371594/display-div-or-span-over-image-on-hover */
+/* http://www.w3schools.com/css/css_tooltip.asp */
+div.services-thumbnail {
+  position: relative;
+}
+
+.overlay {
+  display: none;
+}
+
+div.services-thumbnail:hover .overlay {
+  background: transparent url('../img/tooltip-large.png') no-repeat;
+  position: absolute;
+  height: auto;
+  width: auto;
+  font-size: 14px;
+  padding: 30px;
+  
+  margin-left: 0px;
+  font-size: 14px;
+  color: #fff;
+  display: inline-block;
+
+  bottom: 100%;
+  left: 50%;
+  margin-left: -95%;
+
+  /* All other styling - see example */
+
+  img {
+    vertical-align: top; /* Default is baseline, this fixes a common alignment issue */
+  }
+}
