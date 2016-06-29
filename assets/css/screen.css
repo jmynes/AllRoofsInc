@@ -120,7 +120,7 @@ div.services-thumbnail {
 
 div.services-thumbnail:hover .overlay {
   max-width: 200%;
-  max-height: 200%;
+  max-height: 300%;
   background: rgba(0,0,0,.7);
   position: absolute;
   left: 0;
@@ -133,7 +133,6 @@ div.services-thumbnail:hover .overlay {
   color: #FFFFFF;
 
   /* All other styling - see example */
-
   img {
     vertical-align: top; /* Default is baseline, this fixes a common alignment issue */
   }
