@@ -121,7 +121,7 @@ div.services-thumbnail {
 div.services-thumbnail:hover .overlay {
   width: 150%;
   max-height: 200%;
-  background: rgba(0,0,0,.5);
+  background: rgba(0,0,0,.7);
   position: absolute;
   left: 0;
   bottom: 100%;
