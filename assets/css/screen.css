@@ -86,17 +86,21 @@ figure.slider figure figcaption {
 /* PRODUCTS/SERVICES
 -------------------------------------------------- */
 
+div.sideButtons {
+  margin-top: 7em;
+}
+
 div#interactive-oc {
   background: url('../img/product/interactive-oc.png') no-repeat center;
   background-size: contain;
   height: 100px;
-  margin-bottom: 1em;
 }
 
 div#interactive-ct {
   background: url('../img/product/interactive-ct.png') no-repeat center;
   background-size: contain;
   height: 100px;
+  margin-bottom: 1em;
 }
 
 div.services-thumbnail {
